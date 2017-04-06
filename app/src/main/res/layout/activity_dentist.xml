@@ -6,38 +6,48 @@
     android:layout_height="match_parent"
     tools:context="com.example.gltch.studiodentisticogiustipetrini.Dentist">
 
-    <RelativeLayoutLayout
+    <LinearLayout
         android:layout_width="368dp"
         android:layout_height="495dp"
+        android:orientation="vertical"
+        android:background="@android:color/holo_green_light"
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Studio Dentistico Giusti Petrini"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android_layout_height="wrap_content"/>
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:text="Studio Dentistico Giusti Petrini"/>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:text="STUDIO DENTISTICO ASSOCIATO GIUSTI - PETRINI" />
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </RelativeLayoutLayout>
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:text="141, V. Federigi - 55047 Seravezza (LU) - Italia" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:text="P.I. 01059070464" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:text="Tel. +39 0584 768694"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:text="studiogiustipetrini@gmail.com "/>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
