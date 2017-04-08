@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Icons made by http://www.flaticon.com/authors/becris
+    Becris from www.flaticon.com
+    is licensed by http://creativecommons.org/licenses/by/3.0/
+    Creative Commons BY 3.0 CC 3.0 BY -->
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,67 +11,108 @@
     android:layout_height="match_parent"
     tools:context="com.example.gltch.studiodentisticogiustipetrini.Dentist">
 
-    <LinearLayout
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:background="#e8f5e9"
-        tools:layout_editor_absoluteY="0dp"
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scroll"
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
+        <LinearLayout
             android:layout_height="wrap_content"
-            android:scaleType="centerCrop"
-            android:src="@drawable/studio"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="16sp"
-            android:background="#4caf50"
-            android:fontFamily="casual"
-            android:textColor="@android:color/black"
-            android:textSize="32sp"
-            android:text="Studio Dentistico Associato Giusti Petrini"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="16sp"
-            android:textColor="@android:color/black"
-            android:text="141, V. Federigi - 55047 Seravezza (LU) - Italia"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:background="#e8f5e9"
             tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="8dp" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="8dp"
-            android:textColor="@android:color/black"
-            android:text="Tel. +39 0584 768694"
-            tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="8dp" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="16sp"
-            android:textColor="@android:color/black"
-            android:id="@+id/mailtext"
-            android:text="@string/MailText"
-            android:autoLink="email"
-            tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="0dp" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:textAlignment="center"
-            android:padding="16sp"
-            android:textColor="@android:color/black"
-            android:text="P.I. 01059070464"
-            tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="8dp" />
-    </LinearLayout>
+            tools:layout_editor_absoluteX="8dp">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/studio"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAlignment="center"
+                android:padding="16sp"
+                android:layout_weight="2"
+                android:background="#4caf50"
+                android:fontFamily="casual"
+                android:textColor="@android:color/black"
+                android:textSize="32sp"
+                android:text="Studio Dentistico Associato Giusti Petrini"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/placeholder"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="16sp"
+                android:textColor="@android:color/black"
+                android:text="141, Via Federigi - 55047 Seravezza (LU) - Italia"
+                tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="8dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/smartphone"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="16sp"
+                android:textColor="@android:color/black"
+                android:text="Tel. +39 0584 768694"
+                tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="8dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/email"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="16sp"
+                android:textColor="@android:color/black"
+                android:id="@+id/mailtext"
+                android:text="@string/MailText"
+                android:linksClickable="true"
+                android:autoLink="email"
+                tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="0dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textAlignment="center"
+                android:padding="16sp"
+                android:textColor="@android:color/black"
+                android:text="P.I. 01059070464"
+                tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="8dp" />
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
