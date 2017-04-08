@@ -7,47 +7,62 @@
     tools:context="com.example.gltch.studiodentisticogiustipetrini.Dentist">
 
     <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
+        android:layout_height="587dp"
+        android:layout_width="395dp"
         android:orientation="vertical"
-        android:background="@android:color/holo_green_light"
-        tools:layout_editor_absoluteY="8dp"
+        android:background="#e8f5e9"
+        tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="8dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:padding="8dp"
-            android:text="Studio Dentistico Giusti Petrini"/>
+            android:padding="16sp"
+            android:background="#4caf50"
+            android:fontFamily="casual"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
+            android:text="Studio Dentistico Associato Giusti Petrini"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/studio"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="16sp"
+            android:textColor="@android:color/black"
+            android:text="141, V. Federigi - 55047 Seravezza (LU) - Italia"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:padding="8dp"
-            android:text="STUDIO DENTISTICO ASSOCIATO GIUSTI - PETRINI" />
+            android:textColor="@android:color/black"
+            android:text="Tel. +39 0584 768694"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:padding="8dp"
-            android:text="141, V. Federigi - 55047 Seravezza (LU) - Italia" />
+            android:textColor="@android:color/black"
+            android:text="studiogiustipetrini@gmail.com "
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:textAlignment="center"
             android:padding="8dp"
-            android:text="P.I. 01059070464" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="8dp"
-            android:text="Tel. +39 0584 768694"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:padding="8dp"
-            android:text="studiogiustipetrini@gmail.com "/>
+            android:textColor="@android:color/black"
+            android:text="P.I. 01059070464"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
