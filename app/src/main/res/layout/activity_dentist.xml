@@ -7,12 +7,18 @@
     tools:context="com.example.gltch.studiodentisticogiustipetrini.Dentist">
 
     <LinearLayout
-        android:layout_height="587dp"
-        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
         android:orientation="vertical"
         android:background="#e8f5e9"
         tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="8dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/studio"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,10 +29,6 @@
             android:textColor="@android:color/black"
             android:textSize="32sp"
             android:text="Studio Dentistico Associato Giusti Petrini"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/studio"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,17 +51,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:padding="8dp"
+            android:padding="16sp"
             android:textColor="@android:color/black"
-            android:text="studiogiustipetrini@gmail.com "
+            android:id="@+id/mailtext"
+            android:text="@string/MailText"
+            android:autoLink="email"
             tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="8dp" />
+            tools:layout_editor_absoluteX="0dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:textAlignment="center"
-            android:padding="8dp"
+            android:padding="16sp"
             android:textColor="@android:color/black"
             android:text="P.I. 01059070464"
             tools:layout_editor_absoluteY="0dp"

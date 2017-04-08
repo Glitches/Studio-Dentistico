@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Studio Dentistico Giusti Petrini</string>
+    <string name="MailText">Chiedici informazioni: \n studiogiostipetrini@gmail.com</string>
 </resources>
