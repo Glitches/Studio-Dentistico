@@ -64,15 +64,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/placeholder"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:padding="16sp"
-                android:textColor="@android:color/black"
-                android:text="141, Via Federigi - 55047 Seravezza (LU) - Italia"
-                tools:layout_editor_absoluteY="0dp"
-                tools:layout_editor_absoluteX="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:padding="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="141, Via Federigi - 55047 Seravezza (LU) - Italia"
+                    tools:layout_editor_absoluteY="0dp"
+                    tools:layout_editor_absoluteX="8dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -83,15 +83,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/smartphone"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:padding="16sp"
-                android:textColor="@android:color/black"
-                android:text="Tel. +39 0584 768694"
-                tools:layout_editor_absoluteY="0dp"
-                tools:layout_editor_absoluteX="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:padding="16sp"
+                    android:textColor="@android:color/black"
+                    android:text="Tel. +39 0584 768694"
+                    tools:layout_editor_absoluteY="0dp"
+                    tools:layout_editor_absoluteX="8dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -102,18 +102,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/email"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:padding="16sp"
-                android:textColor="@android:color/black"
-                android:id="@+id/mailtext"
-                android:text="@string/MailText"
-                android:linksClickable="true"
-                android:autoLink="email"
-                tools:layout_editor_absoluteY="0dp"
-                tools:layout_editor_absoluteX="0dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:padding="16sp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/mailtext"
+                    android:text="@string/MailText"
+                    android:linksClickable="true"
+                    android:autoLink="email"
+                    tools:layout_editor_absoluteY="0dp"
+                    tools:layout_editor_absoluteX="0dp" />
             </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
