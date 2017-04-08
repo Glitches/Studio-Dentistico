@@ -14,11 +14,9 @@
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/scroll"
-        android:layout_width="395dp"
-        android:layout_height="587dp"
-        tools:context=".MainActivity"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
@@ -43,6 +41,20 @@
                 android:textColor="@android:color/black"
                 android:textSize="32sp"
                 android:text="Studio Dentistico Associato Giusti Petrini"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="16sp"
+                android:textColor="@android:color/black"
+                android:text="Lo studio dentistico associato Giusti e Petrini
+                assicura la massima professionalità a tutti i suoi pazienti,
+                garantendo anche interventi immediati nei casi più urgenti.
+                Presso lo studio di Seravezza, in provincia di Lucca, sono a disposizione
+                una sala chirurgica attrezzata per ogni intervento e tutte le apparecchiature
+                per studi radiografici digitalizzati. La cura dei denti è un passo
+                fondamentale per la salute complessiva di una persona e va imparata come
+                qualcosa di naturale fin da bambini."/>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
