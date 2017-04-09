@@ -16,20 +16,19 @@
         android:id="@+id/scroll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity" >
         <LinearLayout
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:orientation="vertical"
-            android:background="#e8f5e9"
-            tools:layout_editor_absoluteY="0dp"
-            tools:layout_editor_absoluteX="8dp">
+            android:background="#e8f5e9">
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/studio"/>
+                android:src="@drawable/studio"
+                android:contentDescription="@string/photo"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -40,39 +39,35 @@
                 android:fontFamily="casual"
                 android:textColor="@android:color/black"
                 android:textSize="32sp"
-                android:text="Studio Dentistico Associato Giusti Petrini"/>
+                android:text="@string/Studio"/>
+
             <TextView
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAlignment="center"
                 android:padding="16sp"
-                android:textColor="@android:color/black"
-                android:text="Lo studio dentistico associato Giusti e Petrini
-                assicura la massima professionalità a tutti i suoi pazienti,
-                garantendo anche interventi immediati nei casi più urgenti.
-                Presso lo studio di Seravezza, in provincia di Lucca, sono a disposizione
-                una sala chirurgica attrezzata per ogni intervento e tutte le apparecchiature
-                per studi radiografici digitalizzati. La cura dei denti è un passo
-                fondamentale per la salute complessiva di una persona e va imparata come
-                qualcosa di naturale fin da bambini."/>
+                android:text="@string/Description"
+                android:textAlignment="center"
+                android:textColor="@android:color/black" />
+
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8sp"
                 android:orientation="horizontal">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/placeholder"/>
+                    android:src="@drawable/placeholder"
+                    android:contentDescription="@string/placeholderIcon"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:padding="16sp"
                     android:textColor="@android:color/black"
-                    android:text="141, Via Federigi - 55047 Seravezza (LU) - Italia"
-                    tools:layout_editor_absoluteY="0dp"
-                    tools:layout_editor_absoluteX="8dp" />
+                    android:id="@+id/Address"
+                    android:text="@string/Address" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -82,16 +77,15 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/smartphone"/>
+                    android:src="@drawable/smartphone"
+                    android:contentDescription="@string/phoneIcon"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:padding="16sp"
                     android:textColor="@android:color/black"
-                    android:text="Tel. +39 0584 768694"
-                    tools:layout_editor_absoluteY="0dp"
-                    tools:layout_editor_absoluteX="8dp" />
+                    android:text="@string/Tel" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -101,7 +95,8 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/email"/>
+                    android:src="@drawable/email"
+                    android:contentDescription="@string/emailIcon" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -111,9 +106,28 @@
                     android:id="@+id/mailtext"
                     android:text="@string/MailText"
                     android:linksClickable="true"
-                    android:autoLink="email"
-                    tools:layout_editor_absoluteY="0dp"
-                    tools:layout_editor_absoluteX="0dp" />
+                    android:autoLink="email" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/responsive"
+                    android:contentDescription="@string/pcIcon"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:padding="16sp"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/Site"
+                    android:text="@string/Site"
+                    android:linksClickable="true"
+                    android:autoLink="web" />
             </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
@@ -122,9 +136,8 @@
                 android:textAlignment="center"
                 android:padding="16sp"
                 android:textColor="@android:color/black"
-                android:text="P.I. 01059070464"
-                tools:layout_editor_absoluteY="0dp"
-                tools:layout_editor_absoluteX="8dp" />
+                android:text="@string/Piva" />
         </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

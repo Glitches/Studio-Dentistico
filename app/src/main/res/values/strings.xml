@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">Studio Dentistico Giusti Petrini</string>
+    <string name="photo">Photo of the Team</string>
+    <string name="Studio">Studio Dentistico Associato Giusti Petrini</string>
+    <string name="Description">Lo studio dentistico associato Giusti e Petrini
+                assicura la massima professionalità a tutti i suoi pazienti,
+                garantendo anche interventi immediati nei casi più urgenti.
+                Presso lo studio di Seravezza, in provincia di Lucca, sono a disposizione
+                una sala chirurgica attrezzata per ogni intervento e tutte le apparecchiature
+                per studi radiografici digitalizzati. La cura dei denti è un passo
+                fondamentale per la salute complessiva di una persona e va imparata come
+                qualcosa di naturale fin da bambini.</string>
+    <string name="Address">Via Federigi 141 Seravezza</string>
     <string name="MailText">Chiedici informazioni: \n studiogiustipetrini@gmail.com</string>
+    <string name="Site">http://www.studiogiustipetrini.com</string>
+    <string name="Piva">P.IVA 01059070464</string>
+    <string name="Tel">Tel. +39 0584 768694</string>
+    <string name="placeholderIcon">Placeholder icon for address</string>
+    <string name="emailIcon">Email icon for email address</string>
+    <string name="phoneIcon">Phone Icon for phone number</string>
+    <string name="pcIcon">Pc and mobile icon for browser site</string>
 </resources>
