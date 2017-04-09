@@ -40,7 +40,6 @@
                 android:textColor="@android:color/black"
                 android:textSize="32sp"
                 android:text="@string/Studio"/>
-
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
@@ -49,7 +48,6 @@
                 android:text="@string/Description"
                 android:textAlignment="center"
                 android:textColor="@android:color/black" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
