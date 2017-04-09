@@ -5,7 +5,6 @@
     Creative Commons BY 3.0 CC 3.0 BY -->
 
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,53 +17,51 @@
         android:layout_height="wrap_content"
         tools:context=".MainActivity" >
         <LinearLayout
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:orientation="vertical"
             android:background="#e8f5e9">
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="5"
                 android:background="#4caf50"
                 android:scaleType="fitCenter"
                 android:src="@drawable/studio"
-                android:contentDescription="@string/photo"/>
+                android:contentDescription="@string/photo" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:textAlignment="center"
-                android:padding="16sp"
+                android:padding="16dp"
                 android:layout_weight="4"
                 android:background="#4caf50"
                 android:fontFamily="casual"
                 android:textColor="@android:color/black"
                 android:textSize="32sp"
-                android:text="@string/Studio"/>
+                android:text="@string/Studio" />
             <TextView
-                android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="16sp"
+                android:padding="16dp"
                 android:text="@string/Description"
                 android:textAlignment="center"
                 android:textColor="@android:color/black" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:orientation="horizontal">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/placeholder"
-                    android:contentDescription="@string/placeholderIcon"/>
+                    android:contentDescription="@string/placeholderIcon" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:padding="16sp"
+                    android:padding="16dp"
                     android:textColor="@android:color/black"
                     android:id="@+id/Address"
                     android:text="@string/Address" />
@@ -72,25 +69,25 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:orientation="horizontal">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/smartphone"
-                    android:contentDescription="@string/phoneIcon"/>
+                    android:contentDescription="@string/phoneIcon" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:padding="16sp"
+                    android:padding="16dp"
                     android:textColor="@android:color/black"
                     android:text="@string/Tel" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:orientation="horizontal">
                 <ImageView
                     android:layout_width="wrap_content"
@@ -101,7 +98,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:padding="16sp"
+                    android:padding="16dp"
                     android:textColor="@android:color/black"
                     android:id="@+id/mailtext"
                     android:text="@string/MailText"
@@ -111,18 +108,18 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8sp"
+                android:layout_margin="8dp"
                 android:orientation="horizontal">
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/responsive"
-                    android:contentDescription="@string/pcIcon"/>
+                    android:contentDescription="@string/pcIcon" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:padding="16sp"
+                    android:padding="16dp"
                     android:textColor="@android:color/black"
                     android:id="@+id/Site"
                     android:text="@string/Site"
@@ -134,7 +131,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:textAlignment="center"
-                android:padding="16sp"
+                android:padding="16dp"
                 android:textColor="@android:color/black"
                 android:text="@string/Piva" />
         </LinearLayout>
